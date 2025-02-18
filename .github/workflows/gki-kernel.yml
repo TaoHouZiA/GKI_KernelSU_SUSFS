@@ -258,7 +258,7 @@ jobs:
             cp ../../kernel_patches/0001-linux5.10.y-bore5.1.0.patch ./
             cp ../../kernel_patches/0002-constgran-vanilla-max-android-5.10.patch ./
             echo "Patch1"
-            patch -p1 -F 3 < 0001-linux5.15.y-bore5.1.0.patch
+            patch -p1 -F 3 < 0001-linux5.10.y-bore5.1.0.patch
             echo "Patch2"
             patch -p1 -F 3 < 0002-constgran-vanilla-max-android-5.10.patch
           
