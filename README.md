@@ -52,7 +52,7 @@
 - **SUSFS**：由 [simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git) 开发。
 - **SUSFS 模块**：由 [sidex15](https://github.com/sidex15) 开发。
 - **Sultan 内核**：由 [kerneltoast](https://github.com/kerneltoast) 开发。
-- **Bore补丁**]由 [firelzrd](https://github.com/firelzrd/bore-scheduler) 开发。
+- **Bore补丁**：由 [firelzrd](https://github.com/firelzrd/bore-scheduler) 开发。
 
 特别感谢开源社区的贡献！
 
