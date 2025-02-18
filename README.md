@@ -1,99 +1,84 @@
-# Wild Plus Kernels for Android GKI 2.0 Devices and Others
+# 此内核适用于 Android GKI 2.0 设备和其他设备
 
-## Your warranty is no longer valid!
 
-I am **not responsible** for bricked devices, damaged hardware, or any issues that arise from using this kernel.
+我**不对**因使用此内核而导致的设备损坏、硬件损坏或任何问题负责。
 
-**Please** do thorough research and fully understand the features included in this kernel before flashing it!
+**请**在刷入此内核之前进行彻底研究并充分了解其中包含的功能！
 
-By flashing this kernel, **YOU** are choosing to make these modifications. If something goes wrong, **do not blame me**!
-
----
-
-### Proceed at your own risk!
+通过刷入此内核，**您**选择进行这些修改。 如果出现问题，**不要责怪我**！
 
 ---
 
-# Kernels:
- 
-[GKI](https://github.com/WildPlusKernel/GKI_KernelSU_SUSFS)  
-[Sultan](https://github.com/WildPlusKernel/Sultan_KernelSU_SUSFS)  
-[OnePlus](https://github.com/WildPlusKernel/OnePlus_KernelSU_SUSFS)  
-[Legacy Pixels](https://github.com/WildPlusKernel/Pixel_KernelSU_SUSFS)  
+### 风险自负！
+
+ ---
+
+# 其他内核：
+
+[GKI](https://github.com/WildPlusKernel/GKI_KernelSU_SUSFS) 
+[Sultan](https://github.com/WildPlusKernel/Sultan_KernelSU_SUSFS) 
+[OnePlus](https://github.com/WildPlusKernel/OnePlus_KernelSU_SUSFS) 
+[Legacy Pixels](https://github.com/WildPlusKernel/Pixel_KernelSU_SUSFS) 
 
 ---
 
-# Other Links:
+# 其他链接：
 
-[Kernel Patches](https://github.com/WildPlusKernel/kernel_patches)  
-[Old Build Scripts](https://github.com/TheWildJames/kernel_build_scripts)  
-[Kernel FLasher](https://github.com/capntrips/KernelFlasher/releases)  
-
----
-
-# Installation instructions: 
-
-Follow the steps for GKI:  
-[Installation](https://kernelsu.org/guide/installation.html)
-
-To get boot.img format:  
-[Telegram Bot](https://t.me/wildpluskernel/22076)  
-[Get MyKernel Format](https://github.com/TheWildJames/Get_My_Kernel_Format)
+[内核补丁](https://github.com/WildPlusKernel/kernel_patches) 
+[旧构建脚本](https://github.com/TheWildJames/kernel_build_scripts) 
+[内核 FLasher](https://github.com/capntrips/KernelFlasher/releases) 
+[Bore补丁](https://github.com/firelzrd/bore-scheduler) 
 
 ---
 
-# Features
+# 安装说明：
 
-- **KernelSU**: KernelSU is a root solution for Android GKI devices, it works in kernel mode and grants root permission to userspace applications directly in kernel space.
-- **SUSFS**: An addon root hiding kernel patches and userspace module for KernelSU.
-
----
-
-# Credits
-
-- **KernelSU**: Developed by [tiann](https://github.com/tiann).
-- **KernelSU-Next**: Developed by [rifsxd](https://github.com/rifsxd/KernelSU-Next).
-- **SUSFS**: Developed by [simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git).
-- **SUSFS Module**: Developed by [sidex15](https://github.com/sidex15).
-- **Sultan Kernels**: Developed by [kerneltoast](https://github.com/kerneltoast).
-
-Special thanks to the open-source community for their contributions!
+请按照 GKI 的步骤操作：
+[安装](https://kernelsu.org/guide/installation.html)
 
 ---
 
-# Support
+# 功能
 
-If you encounter any issues or need help, feel free to open an issue in this repository or reach out to me.
-
----
-
-# Disclaimer
-
-Flashing this kernel will void your warranty, and there is always a risk of bricking your device. Please make sure to back up your data and ensure you understand the risks before proceeding.
-
-**Proceed at your own risk!**
+- **KernelSU**：KernelSU 是 Android GKI 设备的 root 解决方案，它在内核模式下工作，并直接在内核空间中向用户空间应用程序授予 root 权限。
+- **SUSFS**：KernelSU 的附加 root 隐藏内核补丁和用户空间模块。
 
 ---
 
-# To-DO
+# 致谢
 
-- [X] Get Stoned & Build kernels!
+- **KernelSU**：由 [tiann](https://github.com/tiann) 开发。
+ - **KernelSU-Next**：由 [rifsxd](https://github.com/rifsxd/KernelSU-Next) 开发。
+- **SUSFS**：由 [simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git) 开发。
+- **SUSFS 模块**：由 [sidex15](https://github.com/sidex15) 开发。
+- **Sultan 内核**：由 [kerneltoast](https://github.com/kerneltoast) 开发。
+- **Bore补丁**]由 [firelzrd](https://github.com/firelzrd/bore-scheduler) 开发。
+
+特别感谢开源社区的贡献！
 
 ---
 
-### If you need your kernel version added please let me know and I will build it!
+# 支持
 
-[Telegram](https://t.me/TheWildJames) NO DMS PLEASE! Ask in chat below!  
-[Telegram Group](https://t.me/wildpluskernel)  
-[Build Scripts](https://github.com/TheWildJames/kernel_build_scripts)
+如果您遇到任何问题或需要帮助，请随时在此存储库中打开问题或与我联系。
 
-# Special thanks to the following people for their contributions!
-This helps me alot! <3
+---
 
-[simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git) - Created SUSFS!  
-[sidex15](https://github.com/sidex15) - Created module!  
-[backslashxx](https://github.com/backslashxx) - Helped with patches!  
-[Teemo](https://github.com/liqideqq) - Helped with patches!  
-[幕落](https://github.com/MuLuo688) - Donation!
+# 免责声明
 
-If you have contributed and are not here please remind me!
+刷新此内核将使您的保修失效，并且始终存在导致设备变砖的风险。 请务必备份您的数据，并确保在继续操作之前了解相关风险。
+
+**继续操作风险自负！**
+
+---
+
+# 特别感谢以下人员的贡献！
+这对我帮助很大！
+
+[simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git) - 创建了 SUSFS！
+ [sidex15](https://github.com/sidex15) - 创建模块！
+[backslashxx](https://github.com/backslashxx) - 帮助打补丁！
+[Teemo](https://github.com/liqideqq) - 帮助打补丁！
+[幕落](https://github.com/MuLuo688) - 捐赠！
+
+如果您已经贡献过，但没来这里，请提醒我！
