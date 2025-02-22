@@ -123,8 +123,8 @@ jobs:
             REPO_URL2="rifsxd/KernelSU-Next"
           elif [ "${{ inputs.kernelsu_variant }}" == "MKSU" ]; then
             echo "This is the MKSU variant"
-            REPO_URL="https://github.com/5ec1cff/KernelSU.git"
-            REPO_URL2="5ec1cff/KernelSU"
+            REPO_URL="https://github.com/ShirkNeko/KernelSU.git"
+            REPO_URL2="ShirkNeko/KernelSU"
           else
             echo "Unknown variant"
           fi
