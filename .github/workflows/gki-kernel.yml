@@ -211,21 +211,16 @@ jobs:
 
           if [ "${{ inputs.kernelsu_variant }}" == "MKSU" ]; then
             echo "Applying SUSFS patches for MKSU..."
-            cp ../susfs4ksu/kernel_patches/KernelSU/10_enable_susfs_for_ksu.patch ./KernelSU/
             cd ./KernelSU
-            patch -p1 --forward < 10_enable_susfs_for_ksu.patch || true
-          else
-            echo "Invalid KernelSU variant selected!"
-            exit 1
+            cp ./patch/* ./
+            patch --fuzz=3 -p1 < MKSU-SKN_susfs.patch || true
+            
           fi
 
           # Change to common directory and apply common SUSFS patch
           cd ../common
           patch -p1 < 50_add_susfs_in_gki-${{ inputs.android_version }}-${{ inputs.kernel_version }}.patch || true
           
-          echo "Applying MKSU specific SUSFS patch..."
-          cd ../KernelSU
-          patch -p1 < mksu_susfs_fix.patch || true
 
       - name: Apply Hide Stuff Patches
         run: |
